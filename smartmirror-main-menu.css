@@ -1,0 +1,54 @@
+/************ CENTER SCREEN OVERLAY MENU ************/
+
+
+@-webkit-keyframes MMM-voice-pulse {
+    0% { color: #999; }
+    50% { color: #000; }
+    100% { color: #999; }
+}
+
+.meun_item {
+    /*display: block;*/
+    /*color: #000;*/
+}
+
+.mediumMenu{
+	align: right;
+	text-align: right;
+	width: 350px;
+	font-size: 27px;
+	line-height: 30px;
+  	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	cursor: pointer;
+  	/*line-height: 35px; */
+}
+
+.table{
+    width: 400px
+}
+
+.tbody{
+    width: 400px
+}
+
+.namecell{
+    padding-right: 5px;
+    width: 440px;
+    text-align: right;
+    display: table-cell;
+}
+
+.valuecell{
+    padding-left: 3px;
+    width: 160px;
+    text-align: left;
+    display: table-cell;
+}
+
+
+.pulse {
+    -webkit-animation: MMM-voice-pulse 1s infinite;
+    -moz-animation: MMM-voice-pulse 1s infinite;
+    -o-animation: MMM-voice-pulse 1s infinite;
+    animation: MMM-voice-pulse 1s infinite;
+}
