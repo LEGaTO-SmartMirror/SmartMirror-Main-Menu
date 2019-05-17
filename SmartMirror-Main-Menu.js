@@ -7,7 +7,7 @@
  * @see  https://github.com/NKucza/smartmirror-main-menu
  */
 
-Module.register("smartmirror-main-menu", {
+Module.register("SmartMirror-Main-Menu", {
    
 	menuObjPointer:  0,
 	selectedNum: -1,
