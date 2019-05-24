@@ -213,7 +213,7 @@ Module.register("SmartMirror-Main-Menu", {
     },
 		
 	getStyles() {
-        return ['font-awesome.css', 'smartmirror-main-menu.css'];
+        return ['font-awesome.css', 'SmartMirror-Main-Menu.css'];
     },
 
 	notificationReceived: function(notification, payload, sender) {
