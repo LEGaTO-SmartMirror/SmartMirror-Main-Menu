@@ -40,6 +40,7 @@ Module.register("SmartMirror-Main-Menu", {
 				objects: {title: "Show / Hide Object Detec.", icon: "fa fa-coffee"},
 				gesture: {title: "Show / Hide Gesture Rec.", icon: "fa fa-thumbs-up"},
 				showALL: {title: "Show all Detections", icon: "fa fa-eye"},
+				person: {title: "Show Person Recognition", icon: "fa fa-users"},
 				hideALL: {title: "Hide All / Remove All", icon: "fa fa-eye-slash"},
 				back: {title: "Back" , icon: "fa fa-undo" },
 				close: {title: "Close" , icon: "fa fa-times-circle" }
