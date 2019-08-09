@@ -183,11 +183,11 @@ Module.register("SmartMirror-Main-Menu", {
 		Object.keys(this.menuObjPointer).forEach(k => {
 		//	var row = this.getMenuItem(this.menuObjPointer[k]);
 			var row = document.createElement("tr");
-			var namecell = document.createElement("namecell");
+			var namecell = document.createElement("namecellMainMenu");
 			var cellText = document.createTextNode(this.menuObjPointer[k].title);
 			namecell.appendChild(cellText);
 			//namecell.className =  "namecell";
-			namecell.className =  "valuecell";
+			namecell.className =  "valuecellMainMenu";
 			namecell.onclick = makeOnClickHandler(k);
 			row.appendChild(namecell);
 

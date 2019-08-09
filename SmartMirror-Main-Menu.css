@@ -16,7 +16,7 @@
 	align: right;
 	text-align: right;
 	width: 350px;
-	font-size: 27px;
+	font-size: 25px;
 	line-height: 30px;
 	font-weight: 900;
   	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -32,16 +32,15 @@
     width: 400px
 }
 
-.namecell{
+.namecellMainMenu{
     padding-right: 5px;
-    width: 440px;
     text-align: right;
     display: table-cell;
 }
 
-.valuecell{
+.valuecellMainMenu{
     padding-left: 3px;
-    width: 160px;
+    width: 460px;
     text-align: left;
     display: table-cell;
 }
