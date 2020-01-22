@@ -66,6 +66,7 @@ Module.register("SmartMirror-Main-Menu", {
 				calendar: {title: "Calendar", icon: "fa fa-calendar"},
 				mensa: {title: "Mensa Offer", icon: "fa fa-apple" },
 				transportation: {title: "Public Transportation", icon: "fa fa-bus" },
+				traffic: {title: "Traffic Load", icon: "fa fa-car" },
 				speech: {title: "Speech Recogn. Output", icon: "fa fa-comment"},
 				newsfeed: {title: "Heise Newsfeed", icon: "fa fa-rss-square" },
 				bivital: {title: "Vital Data" , icon: "fa fa-heart"},
