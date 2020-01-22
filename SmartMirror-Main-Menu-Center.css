@@ -1,0 +1,74 @@
+/************ CENTER SCREEN OVERLAY MENU ************/
+
+
+@-webkit-keyframes MMM-voice-pulse {
+    0% { color: #999; }
+    50% { color: #000; }
+    100% { color: #999; }
+}
+
+@-webkit-keyframes MMM-voice-pulse {
+    0% { color: #999; }
+    50% { color: #000; }
+    100% { color: #999; }
+}
+
+.meun_item {
+    /*display: block;*/
+    /*color: #000;*/
+}
+
+.xLargeMenu{
+  font-size: 70px;
+  line-height: 60px;
+  letter-spacing: -3px;
+  text-align: right; 
+}
+
+.table{
+    width: 400px;
+	text-align: right; 
+}
+
+.tbody{
+    width: 400px
+	text-align: right;
+	align: right; 
+}
+
+.namecellMainMenu{
+    padding-right: 5px; 
+text-align: right; 
+align: right;
+    /*display: table-cell; */
+}
+
+.valuecellMainMenu{
+    padding-left: 3px;
+align: right;
+text-align: right; 
+  /*  width: 460px; */
+
+  /*  display: table-cell; */
+}
+
+
+.pulse {
+    -webkit-animation: MMM-voice-pulse 1s infinite;
+    -moz-animation: MMM-voice-pulse 1s infinite;
+    -o-animation: MMM-voice-pulse 1s infinite;
+    animation: MMM-voice-pulse 1s infinite;
+}
+
+.pulseanimation {
+  border: 1px solid black;
+  border-radius: 3px;
+  /*width: 100px;
+  height: 30px;
+  display: block;*/
+
+  background: linear-gradient(to right, red 50%, blue 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 3s ease-out;
+}
